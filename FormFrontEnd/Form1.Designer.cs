@@ -42,17 +42,18 @@
             // lblOutput
             // 
             this.lblOutput.AutoSize = true;
-            this.lblOutput.Location = new System.Drawing.Point(97, 213);
+            this.lblOutput.Location = new System.Drawing.Point(129, 262);
+            this.lblOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(39, 13);
+            this.lblOutput.Size = new System.Drawing.Size(0, 17);
             this.lblOutput.TabIndex = 17;
-            this.lblOutput.Text = "Label4";
             // 
             // btnGet
             // 
-            this.btnGet.Location = new System.Drawing.Point(100, 168);
+            this.btnGet.Location = new System.Drawing.Point(133, 207);
+            this.btnGet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGet.Name = "btnGet";
-            this.btnGet.Size = new System.Drawing.Size(90, 22);
+            this.btnGet.Size = new System.Drawing.Size(120, 27);
             this.btnGet.TabIndex = 13;
             this.btnGet.Text = "Get";
             this.btnGet.UseVisualStyleBackColor = true;
@@ -61,56 +62,63 @@
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.Location = new System.Drawing.Point(36, 109);
+            this.Label3.Location = new System.Drawing.Point(48, 134);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(49, 13);
+            this.Label3.Size = new System.Drawing.Size(65, 17);
             this.Label3.TabIndex = 16;
             this.Label3.Text = "Diameter";
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(36, 79);
+            this.Label2.Location = new System.Drawing.Point(48, 97);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(38, 13);
+            this.Label2.Size = new System.Drawing.Size(49, 17);
             this.Label2.TabIndex = 15;
             this.Label2.Text = "Height";
             // 
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(36, 49);
+            this.Label1.Location = new System.Drawing.Point(48, 60);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(31, 13);
+            this.Label1.Size = new System.Drawing.Size(41, 17);
             this.Label1.TabIndex = 14;
             this.Label1.Text = "Color";
             // 
             // txtDiameter
             // 
-            this.txtDiameter.Location = new System.Drawing.Point(100, 102);
+            this.txtDiameter.Location = new System.Drawing.Point(133, 126);
+            this.txtDiameter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDiameter.Name = "txtDiameter";
-            this.txtDiameter.Size = new System.Drawing.Size(107, 20);
+            this.txtDiameter.Size = new System.Drawing.Size(141, 22);
             this.txtDiameter.TabIndex = 11;
             // 
             // txtHeight
             // 
-            this.txtHeight.Location = new System.Drawing.Point(100, 76);
+            this.txtHeight.Location = new System.Drawing.Point(133, 94);
+            this.txtHeight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtHeight.Name = "txtHeight";
-            this.txtHeight.Size = new System.Drawing.Size(107, 20);
+            this.txtHeight.Size = new System.Drawing.Size(141, 22);
             this.txtHeight.TabIndex = 10;
             // 
             // txtColor
             // 
-            this.txtColor.Location = new System.Drawing.Point(100, 47);
+            this.txtColor.Location = new System.Drawing.Point(133, 58);
+            this.txtColor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtColor.Name = "txtColor";
-            this.txtColor.Size = new System.Drawing.Size(107, 20);
+            this.txtColor.Size = new System.Drawing.Size(141, 22);
             this.txtColor.TabIndex = 9;
             // 
             // btnSet
             // 
-            this.btnSet.Location = new System.Drawing.Point(100, 140);
+            this.btnSet.Location = new System.Drawing.Point(133, 172);
+            this.btnSet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSet.Name = "btnSet";
-            this.btnSet.Size = new System.Drawing.Size(90, 22);
+            this.btnSet.Size = new System.Drawing.Size(120, 27);
             this.btnSet.TabIndex = 12;
             this.btnSet.Text = "Set";
             this.btnSet.UseVisualStyleBackColor = true;
@@ -118,9 +126,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(243, 273);
+            this.ClientSize = new System.Drawing.Size(324, 336);
             this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.btnGet);
             this.Controls.Add(this.Label3);
@@ -130,6 +138,7 @@
             this.Controls.Add(this.txtHeight);
             this.Controls.Add(this.txtColor);
             this.Controls.Add(this.btnSet);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
